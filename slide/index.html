@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>首页滑动模块展示</title>
+        <script src="js/jquery-1.8.3.min.js">
+        </script>
+        <script src="js/jquery.onebyone.js">
+        </script>
+        <script src="js/jquery.touchwipe.js">
+        </script>
+        <script type="text/javascript" charset="utf-8">
+            $(document).ready(function(){
+            
+                $('#banner').oneByOne({
+                    className: 'oneByOne1',
+                    easeType: 'random',
+                    pauseByHover: true,
+                    slideShowDelay: 5000,
+                    showButton: true,
+                    responsive: true,
+                    autoHideButton: false,
+                    showArrow: true,
+                    slideShow: false
+                });
+                
+                
+            });
+        </script>
+        <link href="css/jquery.onebyone.css" rel="stylesheet" type="text/css">
+        <link href="css/example1.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <style type="text/css" media="screen">
+            #wrapper {
+                width: 100%;
+                -webkit-user-select: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+        	
+            <div id="banner">
+            	
+                <div class="oneByOne_item">
+                    <img src="images/example1/item1/wordpress-256x256.png" class="wp1_3" alt="">
+                    </img><img src="images/example1/item1/wordpress-128x128.png" class="wp1_2" alt="">
+                    </img><img src="images/example1/item1/wordpress-64x64.png" class="wp1_1" alt="">
+                    </img><span class="txt1"><a href="http://themeforest.net/user/sike">我来看一看</a></span>
+                    <span class="txt2">这样看上去很nice ;)</span>
+                </div>
+                <div class="oneByOne_item">
+                    <img src="images/example1/mouse.jpg" class="bigImage">
+                    </img><span class="slide2Txt1">一直鼠标</span>
+                    <span class="slide2Txt2">哇哈哈哈哈哈哈</span>
+                    <span class="slide2Txt3">阿里四大行了四大行发斯蒂芬</span>
+                </div>
+                <div class="oneByOne_item">
+                    <span class="wp1">触摸屏</span>
+                    <span class="wp2">您可以用手指往左或者往右滑动</span>
+                    <img src="images/example1/item2/wordpress-64x64.png" class="wp1" alt="">
+                    </img><img src="images/example1/item2/wordpress-128x128.png" class="wp2" alt="">
+                    </img><img src="images/example1/item2/wordpress-256x256.png" class="wp3" alt="">
+                    </img>
+                </div>
+                <div class="oneByOne_item">
+                    <img src="images/example1/bigimage.jpg" class="bigImage">
+                    </img><span class="slide5Txt1">支持很大的图片</span>
+                    <span class="slide5Txt2">无限制的块级文本框</span>
+                </div>
+				
+             </div>
+			 
+            </div>
+			
+            </body>
+        </html>

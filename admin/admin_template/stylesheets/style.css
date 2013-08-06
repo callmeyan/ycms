@@ -1,0 +1,153 @@
+.cl, .clear {
+    clear: both;
+    height: 0px;
+    width: 100%;
+}
+
+.subnav {
+    margin: 5px 0;
+    padding: 0;
+}
+
+.subnav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 12px;
+}
+
+.subnav ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.subnav ul li a {
+    margin: 0 5px;
+}
+
+.subnav ul li.active a {
+    font-weight: bolder;
+    color: #000;
+}
+
+#current-theme {
+}
+
+#current-theme img {
+    border-color: #999;
+    float: left;
+    width: 300px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#current-theme .theme-info {
+    float: left;
+    margin-left: 25px;
+}
+
+#current-theme h3 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+}
+
+#current-theme h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+#current-theme .theme-more-info {
+    font-size: 12px;
+}
+
+#current-theme .theme-description {
+    margin-top: 5px;
+    max-width: 600px;
+    line-height: 1.6em;
+}
+
+#current-theme .theme-options span {
+    float: left;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 18px;
+    color: #999;
+}
+
+#current-theme .theme-options ul {
+    float: left;
+    margin: 0;
+}
+
+#current-theme .theme-info li a {
+}
+
+#current-theme .theme-info li, .theme-options li, .available-theme .action-links li {
+    float: left;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #DFDFDF;
+    list-style: none;
+}
+
+#current-theme .theme-info li:last-child, .theme-options li:last-child, .available-theme .action-links li:last-child {
+    padding-right: 0;
+    margin-right: 0;
+    border-right: 0;
+}
+
+#themes-list {
+    border-top: solid 1px #D1D1D1;
+    margin-top: 20px;
+    padding: 20px 0;
+}
+
+#themes-list .available-theme {
+    display: inline-block;
+    margin-right: 10px;
+    overflow: hidden;
+    padding: 20px 20px 20px 0;
+    vertical-align: top;
+    width: 300px;
+}
+
+#themes-list .available-theme img {
+    border: 1px solid #999;
+}
+
+#themes-list .theme-name-version {
+    font-size: 12px;
+    color: #ADADAD;
+    margin: 10px 0 6px;
+}
+
+#themes-list .theme-name {
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+}
+
+#themes-list .theme-author {
+}
+
+#theme-options {
+}
+
+#theme-options input.file {
+    width: 400px;
+}
+
+#theme-options textarea {
+    margin: 0px 0px 9px;
+    height: 150px;
+    width: 550px;
+}
+
+.plugin_more {
+	font-size:12px;
+}
